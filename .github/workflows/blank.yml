@@ -7,6 +7,5 @@ jobs:
   ping_test:
     runs-on: ubuntu-latest
     steps:
-    - name: Ping the Repository
-      run: |
-        ping -c 3 github.com
+    - name: Ping Google
+      run: ping -c 3 google.com
